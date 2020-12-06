@@ -4,41 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brutplatz</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="Css/fontello.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontello.css">
 </head>
 <body>
     <header>
-        <div class="contenedor"></div>
-        <h1 class="icon-guidedog">Brutplatz</h1>
-        <input type="checkbox" id="icon-menu">
-        <label class="icon-menu" for="menu-bar"></label>
-        <nav class="menu">
-            <a href="">Inicio</a>
-            <a href="">Cachorros</a>
-            <a href="">Blog</a>
-            <a href="">Contacto</a>
+        <nav class="nav">
+            <a href="index.html" class="logo">
+                <img src="imagenes/logo.png" alt="logo">
+                <p>Brutplatz</p>
+            </a>
+            <div class="menu">
+                <a href="#">Inicio</a>
+                <a href="#">Cachorros</a>
+                <a href="#">Blog</a>
+                <a href="#">Contacto</a>
+            </div>
+            <button>
+                <svg alt="icon-menu" width="20" height="20" viewBox="0 0 18 12">
+                    <defs>
+                        <style>.a{fill:#fff;}</style>
+                    </defs>
+                    <path class="a" d="M3,18H21V16H3Zm0-5H21V11H3ZM3,6V8H21V6Z" transform="translate(-3 -6)" />
+                </svg>
+            </button>
         </nav>
     </header>
 
     <main>
-        <section id="banner">
-            <img src="Imagenes/imagen9.jpg">
-            <div class="contenedor">
-                <h2>Criadero de Schnauzer Mini</h2>
+        <section class="banner">
+            <div>
+                <h1>Criadero de Schnauzer Mini</h1>
                 <p>Pedigree de FCA</p>
                 <a href="#">Leer más</a>
             </div>
         </section>
 
-        <section id="quienes">
+        <section class="quienes">
             <h2>¿Quienes somos?</h2>
             <p>Somos un criadero de Schnauzer Mini ubicado en Castelar. Mas que un criadero somos una familia que nos dedicamos al cuidado de nuestros cachorros.</p>
         </section>
 
-        <section id="blog">
-            <h3>Nuestros Cachorros</h3>
-            <div class="contenedor">
+        <section class="blog">
+            <h2>Nuestros Cachorros</h2>
+            <div>
                 <article>
                     <img src="Imagenes/imagen2.jpg">
                     <h4>Mora: Dulce y cariñosa</h4>
@@ -53,39 +63,32 @@
                 </article>
             </div>
         </section>
-        <section>
 
-            <section id="info">
-                <h3>Para nosotros estos pequeños no son simples compañeros, son miembros de la familia.</h3>
-                <div class="contenedor">
-                    <div class="info-pet">
-                        <img src="Imagenes/imagen3.jpg" alt="">
-                        <h4>Mecha</h4>
-                    </div>
-                    <div class="info-pet">
-                        <img src="Imagenes/imagen6.jpg" alt="">
-                        <h4>Paco</h4>
-                    </div>
-                    <div class="info-pet">
-                        <img src="Imagenes/imagen7.jpg" alt="">
-                        <h4>Mohana</h4>
-                    </div>
-                    <div class="info-pet">
-                        <img src="Imagenes/imagen8.jpg" alt="">
-                        <h4>king</h4>
-                    </div>
+        <section class="info">
+            <h3>Para nosotros estos pequeños no son simples compañeros, son miembros de la familia.</h3>
+            <div class="infoContainer">
+                <div class="info-pet">
+                    <img src="Imagenes/imagen3.jpg" alt="dog">
+                    <h4>Mecha</h4>
                 </div>
-            </section>
+                <div class="info-pet">
+                    <img src="Imagenes/imagen6.jpg" alt="dog">
+                    <h4>Paco</h4>
+                </div>
+                <div class="info-pet">
+                    <img src="Imagenes/imagen7.jpg" alt="dog">
+                    <h4>Mohana</h4>
+                </div>
+                <div class="info-pet">
+                    <img src="Imagenes/imagen8.jpg" alt="dog">
+                    <h4>King</h4>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <div class="contenedor">
-            <p class="copy">Brutplatz &copy; 2020</p>
-            <div class="sociales">
-                <a class="icon-facebook-squared" href=""></a>
-                <a href=""></a>
-            </div>
-        </div>
+        <p>Brutplatz &copy; 2020</p>
     </footer>
 </body>
 </html>

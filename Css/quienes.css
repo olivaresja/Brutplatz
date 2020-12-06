@@ -1,0 +1,19 @@
+.quienes {
+  padding: 40px 10px;
+  width: 100%;
+  text-align: center;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quienes h2 {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.quienes p {
+  max-width: 720px;
+  font-size: 18px;
+}
