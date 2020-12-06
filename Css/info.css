@@ -1,10 +1,13 @@
-#info {
-    background: #333;
+.info {
+    padding: 40px 20px;
+    width: 100%;
     color: #fff;
     text-align: center;
+    background: #333;
 }
 
-#info .contenedor {
+.infoContainer {
+    margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -12,6 +15,7 @@
 
 .info-pet {
     margin: 20px;
+    width: auto;
 }
 
 .info-pet img {
@@ -21,14 +25,8 @@
     border: 7px solid #fff;
 }
 
-@media (min-width:480px) {
+@media (max-width: 1020px) {
     .info-pet {
-        width: 40%;
-    }
-}
-
-@media (min-width:1023px) {
-    .info-pet {
-        width: auto;
+        width: 250px;
     }
 }
